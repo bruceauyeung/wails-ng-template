@@ -1,3 +1,3 @@
-module github.com/mateothegreat/wails-angular-template
+module github.com/bruceauyeung/wails-ng-template
 
 go 1.20
