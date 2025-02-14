@@ -24,6 +24,11 @@ func (b *App) shutdown(ctx context.Context) {
 	// Perform your teardown here
 }
 
+// domReady is called after the front-end dom has been loaded
+func (b *App) domReady(ctx context.Context) {
+	// Add your action here
+}
+
 func (b *App) Greet(name string) string {
 	return fmt.Sprintf("Hello %s, It's show time!", name)
 }
